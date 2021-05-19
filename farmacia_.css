@@ -1,0 +1,149 @@
+nav div a{
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#links a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight:lighter;
+    font-size: 30px;
+    background-color: whitesmoke;
+    background-image: url(farmacia.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  header{
+    color: black;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+header nav {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+
+  #nome{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-shadow: 3px 3px grey;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    z-index: 1;
+  }
+
+  nav div a{
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+#col{
+width: 100%;
+display: flex;
+justify-content: space-around;
+}
+
+footer div ul{
+text-align: start;
+}
+
+#dati{
+margin: 80px 80px;
+}
+
+footer div img{
+width: 10%;
+height: 80px;
+border: 2px solid #013A63;
+border-radius: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input{
+      font-size: 20px;
+  }
+
+  input#text{
+      width: 320px;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+  }
+
+  div.contenitore{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      margin-bottom: 50px;
+  }
+
+  span.farmaco{
+      border: 1px solid black;
+      color: black; 
+      font-size: 50px;
+      background-color: #89C2D9;
+      padding: 10px;
+  }
